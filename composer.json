@@ -1,0 +1,15 @@
+{
+    "name": "philo/gsm",
+    "autoload": {
+        "psr-4": {
+            "Philo\\Gsm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Audace Philo",
+            "email": "audacephilo@gmail.com"
+        }
+    ],
+    "require": {}
+}

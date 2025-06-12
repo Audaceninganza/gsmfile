@@ -1,0 +1,107 @@
+ 
+.login_card {
+    margin-top: 5rem;
+    min-width: auto;
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255);
+}
+
+.login_container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: rgba(174, 167, 182, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_container img{
+    margin-top: 10px;
+}
+
+.login_title h1{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: calc(2rem * .8);
+}
+ 
+ 
+.form1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.form1 .input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+.form1 .input label{
+ font-size: calc(1rem * .8);
+}
+.form1 .input input {
+    border: none;
+    padding: 1rem;
+    border-radius: 5rem;
+}
+
+.keep-forget {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: .5rem;
+    gap: 10px;
+}
+
+.keep-forget label{
+    display: flex;
+    gap: 5px;
+    font-size: calc(1rem * .8);
+}
+
+.keep-forget .forgot-password {
+    color: blue;
+    text-decoration: none;
+    font-size: calc(1rem * .8);
+
+}
+
+ .forgot-password:hover {
+    text-decoration: underline;
+}
+
+.forget {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: .5rem
+}
+
+.forget span a {
+    color: blue;
+    text-decoration: none;
+}
+
+.forget span a:hover {
+    text-decoration: underline;
+}
+
+.login_container .form1 input[type="submit"]{
+ width: 10rem;
+ height: 3rem;
+ font-size: calc(1rem * .9);
+ background-color: blueviolet;
+ border: none;
+ border-radius: 2rem;
+ justify-self: center;
+ align-self: center;
+ margin-bottom: .5rem
+}
